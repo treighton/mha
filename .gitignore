@@ -1,0 +1,11 @@
+# Ignore the dependency management directories
+vendor/
+node_modules/
+
+# Exclude dist directories
+dist
+
+*.log
+.idea
+uploads
+.DS_Store

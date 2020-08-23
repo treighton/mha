@@ -1,0 +1,34 @@
+.footer {
+	background-color: var(--c-dark-primary);
+	bottom: 0;
+	color: var(--c-black);
+	margin-top: var(--s4);
+	padding: var(--s2) 0 var(--s1);
+}
+
+.footer__content {
+	align-items: bottom;
+	display: flex;
+	justify-content: space-between;
+
+	& > * {
+		align-items: flex-end;
+		display: flex;
+	}
+}
+
+.footer__social {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	& svg {
+		fill: var(--c-black);
+		height: var(--s2);
+
+		& path {
+			fill: var(--c-black);
+		}
+	}
+}

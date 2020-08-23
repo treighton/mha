@@ -1,0 +1,4 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "extends": "@10up/stylelint-config"
+}

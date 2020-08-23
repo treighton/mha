@@ -1,0 +1,8 @@
+.wp-block-button {
+	margin-bottom: 1rem;
+}
+
+.wp-block-button__link {
+	background-color: var(--c-dark-secondary);
+	border-radius: 0;
+}

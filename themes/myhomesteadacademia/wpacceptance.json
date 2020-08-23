@@ -1,0 +1,13 @@
+{
+  "name": "mha",
+  "exclude": ["node_modules"],
+  "tests": ["./tests/wpa/*.php"],
+  "enforce_clean_db": false,
+  "project_path": "%WP_ROOT%/wp-content/themes/myhomesteadacademia",
+  "environment_instructions": [
+    [
+      "install wordpress where url is http://myhomesteadacademia.test",
+      "enable theme where name is myhomesteadacademia"
+    ]
+  ]
+}

@@ -1,0 +1,78 @@
+:root {
+	font-size: 16px;
+	--primary-font-family: "Playfair Display", serif;
+	--seconday-font-family: times, serif;
+}
+
+html {
+	font-size: 100%;
+} /*16px*/
+
+body {
+	font-family: var(--primary-font-family), sans-serif;
+	font-weight: 400;
+	line-height: 1.65;
+}
+
+p {
+	margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: var(--primary-font-family), sans-serif;
+	font-weight: 400;
+	line-height: 1.15;
+	margin: var(--s2) 0 var(--s1);
+}
+
+h1 {
+	font-size: var(--s3);
+	margin-top: 0;
+
+	@media (--bp-medium) {
+		font-size: var(--s5);
+	}
+}
+
+h2 {
+	font-size: var(--s2);
+
+	@media (--bp-medium) {
+		font-size: var(--s3);
+	}
+}
+
+h3 {
+	font-size: var(--s1);
+
+	@media (--bp-medium) {
+		font-size: var(--s2);
+	}
+}
+
+h4 {
+	font-size: var(--s1);
+}
+
+h5 {
+	font-size: var(--s0);
+}
+
+small,
+.text_small {
+	font-size: var(--s-1);
+}
+
+a {
+	color: var(--c-black);
+	text-decoration: none;
+
+	&:hover {
+		box-sizing: border-box;
+		outline: dashed 1px var(--c-dark-primary);
+	}
+}

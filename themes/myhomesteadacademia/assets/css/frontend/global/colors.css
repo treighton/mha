@@ -1,0 +1,11 @@
+/*
+ * Colors
+ */
+:root {
+	--c-black: #000;
+	--c-white: #fff;
+	--c-dark-secondary: #55423d;
+	--c-dark-primary: #8c7851;
+	--c-light-primary: #eaddcf;
+	--c-light-secondary: #fffff5;
+}

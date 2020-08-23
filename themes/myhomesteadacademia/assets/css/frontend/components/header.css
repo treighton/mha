@@ -1,0 +1,20 @@
+.header {
+	background-color: var(--c-dark-primary);
+	height: var(--s4);
+	position: relative;
+	z-index: 1;
+}
+
+.header__logo {
+	width: fit-content;
+
+	& svg {
+		height: var(--s5);
+		width: auto;
+	}
+
+	& a {
+		display: block;
+		position: relative;
+	}
+}

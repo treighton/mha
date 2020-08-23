@@ -1,0 +1,12 @@
+.article-card {
+	align-items: center;
+	display: flex;
+
+	& .card__header {
+		margin-right: var(--s0);
+	}
+
+	& a {
+		color: var(--c-black);
+	}
+}
