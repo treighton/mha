@@ -10,24 +10,22 @@
 		<div class="wrapper">
 			<div class="footer__content">
 				<div class="footer__colophon">
-					<p><?php esc_html_e('Made with ♥ in Franklin, CA', 'mha') ?></p>
+					<p><?php esc_html_e( 'Made with ♥ in Franklin, CA', 'mha' ); ?></p>
 				</div>
 				<div class="footer__copyright">
-					<p>&copy; <?php echo date("Y"); ?> <a href="<?php echo esc_url('https://treightonmauldin.com') ?>"><?php esc_html_e('Treighton Mualdin', 'mha') ?></a></p>
+					<?php
+					printf(
+						'<p>&copy; %s <a href="%s">%s</a></p>',
+						esc_attr( gmdate( 'Y' ) ),
+						esc_url( 'https://treightonmauldin.com' ),
+						esc_html__( 'Treighton Mauldin' )
+					);
+					?>
 				</div>
 				<div class="footer__contact">
-					<ul class="footer__social">
-						<li class="footer__twitter">
-							<a href="">
-								<?php echo mha_svg_icon('twitter-white') ?>
-							</a>
-						</li>
-						<li class="footer__insta">
-							<a href="">
-								<?php echo mha_svg_icon('instagram-white') ?>
-							</a>
-						</li>
-					</ul>
+					<a href="mailto:treighton@gmail.com">
+						treighton@gmail.com
+					</a>
 				</div>
 			</div>
 		</div>
